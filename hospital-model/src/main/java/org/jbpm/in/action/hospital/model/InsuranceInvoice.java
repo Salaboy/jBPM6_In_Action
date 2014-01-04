@@ -10,6 +10,6 @@ package org.jbpm.in.action.hospital.model;
  *
  * @author salaboy
  */
-public class InsuranceInvoice {
+public class InsuranceInvoice extends HospitalInvoice{
     
 }

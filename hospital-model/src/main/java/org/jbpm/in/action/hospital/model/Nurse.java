@@ -10,6 +10,19 @@ package org.jbpm.in.action.hospital.model;
  *
  * @author salaboy
  */
-public class Nurse {
+public class Nurse extends HospitalStaff{
+    private String category;
+
+    public Nurse() {
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+    
     
 }

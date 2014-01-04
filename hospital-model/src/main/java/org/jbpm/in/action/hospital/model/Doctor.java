@@ -6,10 +6,33 @@
 
 package org.jbpm.in.action.hospital.model;
 
+import java.util.Date;
+
 /**
  *
  * @author salaboy
  */
-public class Doctor {
+public class Doctor extends HospitalStaff {
+    private HospitalUnit unit;
+    private Date startedOn;
+
+    public Doctor() {
+    }
+
+    public HospitalUnit getUnit() {
+        return unit;
+    }
+
+    public void setUnit(HospitalUnit unit) {
+        this.unit = unit;
+    }
+
+    public Date getStartedOn() {
+        return startedOn;
+    }
+
+    public void setStartedOn(Date startedOn) {
+        this.startedOn = startedOn;
+    }
     
 }

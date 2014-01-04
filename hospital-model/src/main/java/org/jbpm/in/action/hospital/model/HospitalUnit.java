@@ -11,5 +11,6 @@ package org.jbpm.in.action.hospital.model;
  * @author salaboy
  */
 public interface HospitalUnit {
-    
+    String getId();
+    String getUnitName();
 }
